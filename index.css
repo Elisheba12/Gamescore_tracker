@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  border: 4px solid white;
+  border-radius: 10px;
+  width: 575px;
+  height: 385px;
+  margin: auto;
+  background-color: darkblue;
+}
+.container .homediv h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: 1px solid black; */
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  width: 149px;
+  height: 36px;
+  margin-top: 68px;
+  color: white;
+}
+.container .homediv .bigtimecase {
+  width: 155px;
+  height: 120px;
+  /* border: 1px solid red; */
+  margin-top: 0px;
+  background-color: black;
+  margin-top: -17px;
+}
+.container .homediv .bigtimecase .smalltimecase {
+  width: 117px;
+  height: 120px;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.container .homediv .bigtimecase .smalltimecase #time {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  /* border: 1px solid red; */
+  margin-top: -10px;
+}
+.container .homediv .bigtimecase .smalltimecase #time1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  /* border: 1px solid red; */
+  margin-top: -10px;
+}
+.container .homediv .points {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: 1px solid black; */
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  width: 155px;
+  height: 45px;
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  gap: 11px;
+}
+.container .homediv .points .pointscase1 #count1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+  /* line-height: 10px; */
+  text-align: center;
+  width: 40px;
+  height: 39px;
+  margin: auto;
+  margin-left: 7px;
+  color: whitesmoke;
+  background-color: transparent;
+  margin-top: -30px;
+}
+.container .homediv .points .pointscase2 #count2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+  /* line-height: 10px; */
+  text-align: center;
+  width: 40px;
+  height: 39px;
+  margin: auto;
+  color: whitesmoke;
+  background-color: transparent;
+}
+.container .homediv .points .pointscase3 #count3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+  /* line-height: 10px; */
+  text-align: center;
+  width: 40px;
+  height: 39px;
+  margin: auto;
+  color: whitesmoke;
+  background-color: transparent;
+}
